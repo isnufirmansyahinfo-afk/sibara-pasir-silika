@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panduan Memilih Mesh Size Pasir Silika yang Tepat untuk Sistem Filtrasi Air</title>
+  <meta name="description" content="Kesalahan memilih mesh size pasir silika berdampak langsung pada performa filter — breakthrough partikel, headloss tinggi, hingga backwash tidak efektif. Pelajari cara memilih ukuran mesh yang presisi.">
+  <meta name="robots" content="index, follow">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',Arial,sans-serif;background:#f8f9fa;color:#2c3e50;line-height:1.8;font-size:16px}
+    .hero{background:#1a3a5c;color:#fff;padding:3.5rem 2rem;text-align:center}
+    .hero .kicker{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);color:#9ec5e8;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;padding:.3rem 1rem;margin-bottom:1.2rem}
+    .hero h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.3;margin-bottom:1rem;max-width:700px;margin-left:auto;margin-right:auto}
+    .hero p{color:rgba(255,255,255,.7);max-width:580px;margin:0 auto;font-size:1rem}
+    .container{max-width:820px;margin:0 auto;padding:2.5rem 2rem}
+    .problem-box{background:#fff3cd;border-left:4px solid #e8a628;padding:1.2rem 1.5rem;border-radius:0 6px 6px 0;margin:1.5rem 0}
+    .problem-box strong{color:#856404}
+    h2{font-size:1.4rem;color:#1a3a5c;margin:2.5rem 0 1rem;font-weight:700}
+    h3{font-size:1.1rem;color:#2980b9;margin:1.5rem 0 .5rem;font-weight:600}
+    p{margin-bottom:1rem}
+    table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.9rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+    th{background:#1a3a5c;color:#fff;text-align:left;padding:.75rem 1rem;font-weight:600;font-size:.85rem}
+    td{padding:.65rem 1rem;border-bottom:1px solid #e9ecef}
+    tr:hover td{background:#f0f7ff}
+    .formula-box{background:#eef7ff;border:1px solid #b8d8f5;border-radius:6px;padding:1.2rem 1.5rem;margin:1.5rem 0;font-family:monospace;font-size:.9rem}
+    .formula-box .label{font-family:'Segoe UI',Arial,sans-serif;font-size:.75rem;color:#666;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}
+    ul{padding-left:1.5rem;margin-bottom:1rem}
+    li{margin-bottom:.4rem}
+    .case-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.5rem 0}
+    .case-card{background:#fff;border:1px solid #dee2e6;border-radius:6px;padding:1.2rem;border-top:3px solid #1a3a5c}
+    .case-card h4{font-size:.95rem;color:#1a3a5c;margin-bottom:.5rem}
+    .case-card p{font-size:.85rem;color:#555;margin:0}
+    .cta{background:linear-gradient(135deg,#1a3a5c,#2980b9);color:#fff;border-radius:8px;padding:2rem;margin:3rem 0;text-align:center}
+    .cta h3{color:#fff;font-size:1.2rem;margin-bottom:.75rem}
+    .cta p{color:rgba(255,255,255,.8);margin-bottom:1.5rem}
+    .cta a{display:inline-block;background:#fff;color:#1a3a5c;padding:.75rem 2rem;border-radius:4px;text-decoration:none;font-weight:700;font-size:.9rem;transition:opacity .2s}
+    .cta a:hover{opacity:.9}
+    .related{display:flex;flex-wrap:wrap;gap:.75rem;margin:2rem 0}
+    .related a{color:#2980b9;text-decoration:none;border:1px solid #b8d8f5;background:#eef7ff;padding:.35rem .9rem;font-size:.85rem;border-radius:3px;transition:all .2s}
+    .related a:hover{background:#2980b9;color:#fff}
+    footer{background:#1a3a5c;color:rgba(255,255,255,.6);text-align:center;padding:1.5rem 2rem;font-size:.85rem}
+    footer a{color:#9ec5e8;text-decoration:none}
+  </style>
+</head>
+<body>
+<div class="hero">
+  <div class="kicker">Panduan Teknis Filtrasi Air</div>
+  <h1>Kenapa Pemilihan Mesh Size Pasir Silika Bisa Menentukan Hidup-Matinya Performa Filter Anda</h1>
+  <p>Panduan berbasis data lapangan — dari uniformity coefficient hingga EBCT — untuk engineer dan procurement industri</p>
+</div>
+
+<div class="container">
+
+  <div class="problem-box">
+    <strong>Masalah yang sering terjadi di lapangan:</strong> Filter baru dipasang tapi air outlet masih keruh. Headloss meningkat cepat dalam 2–3 hari. Backwash tidak efektif memulihkan kapasitas. Hampir selalu, akar masalahnya bukan pada desain vessel — tapi pada pemilihan mesh size pasir silika yang tidak tepat.
+  </div>
+
+  <h2>Dua Parameter yang Paling Sering Diabaikan</h2>
+  <p>Ketika membeli pasir silika, kebanyakan orang hanya menyebutkan angka mesh — misalnya "30–60 mesh" — tanpa memperhatikan dua parameter yang jauh lebih kritis:</p>
+
+  <h3>1. Effective Size (ES)</h3>
+  <p>Effective size adalah ukuran lubang ayakan di mana 10% material (berdasarkan berat) lolos. Dinyatakan dalam milimeter. ES menentukan ukuran partikel terkecil yang tertahan, yang langsung berpengaruh pada kemampuan filter menangkap suspended solid.</p>
+
+  <div class="formula-box">
+    <div class="label">Rumus praktis</div>
+    ES (mm) = ukuran ayakan di mana 10% massa sampel lolos<br>
+    Contoh: jika 10% pasir lolos ayakan 0.45mm → ES = 0.45mm
+  </div>
+
+  <h3>2. Uniformity Coefficient (UC)</h3>
+  <p>UC adalah rasio antara ukuran di mana 60% material lolos (d60) dibagi ES. Semakin rendah UC, semakin seragam ukuran butiran, semakin baik performa filter dan backwash.</p>
+
+  <div class="formula-box">
+    <div class="label">Rumus</div>
+    UC = d60 / d10<br>
+    Target ideal: UC ≤ 1.5 untuk water treatment standar<br>
+    Untuk pre-RO atau aplikasi presisi: UC ≤ 1.3
+  </div>
+
+  <p>Pasir silika dengan UC tinggi (1.8–2.5) yang umum dijual di pasaran terlihat sama secara visual, tapi kinerjanya jauh berbeda. Partikel yang tidak seragam menyebabkan "rat holes" — jalur aliran preferensial di dalam bed — yang membuat sebagian besar partikel lolos tanpa tersaring.</p>
+
+  <h2>Tabel Pemilihan Mesh Berdasarkan Aplikasi</h2>
+  <table>
+    <thead>
+      <tr><th>Aplikasi</th><th>ES yang Direkomendasikan</th><th>UC Target</th><th>Alasan</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Pre-filter kasar, sand trap</td><td>1.0–2.0 mm</td><td>≤ 1.6</td><td>Flow rate tinggi, partikel kasar</td></tr>
+      <tr><td>Dual media bersama antrasit</td><td>0.45–0.55 mm</td><td>≤ 1.5</td><td>Lapisan bawah, tangkap partikel halus</td></tr>
+      <tr><td>Single media gravity filter</td><td>0.5–0.65 mm</td><td>≤ 1.5</td><td>Keseimbangan kualitas dan headloss</td></tr>
+      <tr><td>Pressure sand filter standar</td><td>0.45–0.55 mm</td><td>≤ 1.5</td><td>WTP, IPAL, kolam renang</td></tr>
+      <tr><td>Pre-RO (membrane protection)</td><td>0.35–0.45 mm</td><td>≤ 1.3</td><td>SDI rendah, lindungi membran</td></tr>
+      <tr><td>Produksi air minum (AMDK)</td><td>0.3–0.4 mm</td><td>≤ 1.3</td><td>Kualitas outlet konsisten</td></tr>
+      <tr><td>PLTU — boiler feed water</td><td>0.3–0.4 mm</td><td>≤ 1.2</td><td>Standar paling ketat, on-spec wajib</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kasus Nyata: Filter WTP yang Bermasalah</h2>
+  <p>Sebuah PDAM di Jawa Barat mengoperasikan 4 unit gravity sand filter dengan kapasitas 200 L/detik. Dalam 6 bulan pertama operasi, turbiditas outlet konsisten di bawah 1 NTU. Setelah penggantian media (menggunakan pasir dari supplier berbeda yang lebih murah), dalam 2 minggu turbiditas melonjak ke 3–5 NTU dengan backwash harian.</p>
+  <p>Investigasi menemukan: media baru memiliki ES yang sama (0.5mm) tapi UC = 1.9 — jauh di atas standar. Setelah penggantian dengan pasir UC ≤ 1.4, performa kembali normal. Selisih harga pasir per ton tidak sebanding dengan biaya downtime dan keluhan pelanggan.</p>
+
+  <h2>Checklist Sebelum Membeli</h2>
+  <div class="case-grid">
+    <div class="case-card">
+      <h4>Minta Sertifikat Analisis (COA)</h4>
+      <p>COA valid harus mencantumkan ES, UC, kadar SiO₂, Fe₂O₃, dan moisture. COA dari lab terakreditasi (Sucofindo, IPB) lebih dapat dipercaya.</p>
+    </div>
+    <div class="case-card">
+      <h4>Verifikasi Kesesuaian Desain</h4>
+      <p>Tanyakan pada engineer sistem: berapa ES dan UC yang dispesifikasikan? Jangan beli hanya berdasarkan angka mesh generik.</p>
+    </div>
+    <div class="case-card">
+      <h4>Minta Free Sample Dulu</h4>
+      <p>Supplier terpercaya selalu siap kirim sampel sebelum order besar. Uji di lab sendiri atau kirim ke lab independen untuk verifikasi.</p>
+    </div>
+    <div class="case-card">
+      <h4>Cek Konsistensi Antar Batch</h4>
+      <p>Tanyakan: apakah spesifikasi dijamin konsisten antar pengiriman? Variasi antar batch = masalah performa jangka panjang.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h3>Butuh Pasir Silika dengan Spesifikasi ES dan UC yang Tepat?</h3>
+    <p>PT Sibara Bestari Indonesia menyediakan pasir silika dengan kustomisasi mesh presisi, COA dari Sucofindo, dan jaminan konsistensi antar batch. Free sampel tersedia sebelum order.</p>
+    <a href="https://sibaraindonesia.net/pasir-silika/" target="_blank" rel="noopener">Konsultasi Spesifikasi Teknis ke Sibara &rarr;</a>
+  </div>
+
+  <h2>Baca Juga</h2>
+  <div class="related">
+    <a href="https://sibaraindonesia.net/karbon-aktif/">Karbon Aktif GAC/PAC</a>
+    <a href="https://sibaraindonesia.net/zeolit/">Zeolit Filter Amonia</a>
+    <a href="https://sibaraindonesia.net/manganese-greensand/">Manganese Greensand</a>
+    <a href="https://sibaraindonesia.net/antrasit/">Antrasit Dual Media</a>
+    <a href="https://sibaraindonesia.net/batu-silika/">Batu Silika Underbed</a>
+  </div>
+
+</div>
+<footer>
+  <p>Referensi teknis untuk engineer dan procurement water treatment di Indonesia.</p>
+  <p style="margin-top:.4rem">Supplier media filtrasi: <a href="https://sibaraindonesia.net/pasir-silika/">sibaraindonesia.net/pasir-silika/</a></p>
+</footer>
+</body>
+</html>
